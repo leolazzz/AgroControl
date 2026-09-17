@@ -1,0 +1,11 @@
+{
+  "classes.txt": "1349025ba129edbff480c5a46b411bb6f1275f2ac7ca8a29cf5a2958a91d13b5",
+  "model_metadata.json": "68e4e2e9bf6134ce350a044329b46bfab14c73894f47cd2de330079574683c6b",
+  "negative_selection.json": "34f59a89d5193ec86feca5adc0f5d7463eb954b25f4a7499aff050c0708db4d2",
+  "onnx_verification.json": "34a825f5b6dd7b67193dbd1b60b967d463f2fc9c3ff807ba844c3c35554f5045",
+  "predictions.csv": "e41c6bc5a46730edb0808b0f3da39f1992d9b48bd04de583832febab66cf9e4b",
+  "selection.json": "636526003b8913d16c502e6ce072658342f8333b0759fe0261eda99b74726bb0",
+  "split_counts.csv": "d8dc6668826516f445872e6aaceaaa2a8ae67405601d357f7498d234ef4359c0",
+  "split_manifest.csv": "90f9cc43997d111d67151940eb44cc493840be50d3503d060cd41b5d4e81fee7",
+  "training_config.json": "1c00b9e2fbcb88fcafa391566842e00c8646527e3371558861b6984cc672cd90"
+}

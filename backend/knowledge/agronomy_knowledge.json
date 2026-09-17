@@ -1,0 +1,361 @@
+{
+  "version": "2026-09-13.2",
+  "reviewed_at": "2026-09-13",
+  "items": [
+    {
+      "id": "osu-hydroponic-ranges",
+      "title": "Electrical Conductivity and pH Guide for Hydroponics",
+      "organization": "Oklahoma State University Extension",
+      "url": "https://extension.okstate.edu/fact-sheets/electrical-conductivity-and-ph-guide-for-hydroponics",
+      "crops": ["tomato", "cucumber", "pepper", "eggplant", "strawberry"],
+      "diseases": [],
+      "tags": ["sensor_based", "hydroponics", "ph", "ec"],
+      "facts": [
+        "В беспочвенной культуре нет почвенного буфера, поэтому pH и EC раствора необходимо контролировать регулярно.",
+        "Справочные диапазоны зависят от культуры; показания нельзя корректировать по единому диапазону для всех растений."
+      ],
+      "crop_ranges": {
+        "tomato": {"ph": [6.0, 6.5], "ec": [2.0, 4.0]},
+        "cucumber": {"ph": [5.0, 5.5], "ec": [1.7, 2.0]},
+        "pepper": {"ph": [5.5, 6.0], "ec": [0.8, 1.8]},
+        "eggplant": {"ph": [6.0, 6.0], "ec": [2.5, 3.5]},
+        "strawberry": {"ph": [6.0, 6.0], "ec": [1.8, 2.2]}
+      }
+    },
+    {
+      "id": "fao-hydroponic-monitoring",
+      "title": "Good Agricultural Practices for Greenhouse Vegetable Crops",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "url": "https://www.fao.org/4/i3284e/i3284e.pdf",
+      "crops": ["all"],
+      "diseases": [],
+      "tags": ["sensor_based", "hydroponics", "ph", "ec", "safety"],
+      "facts": [
+        "Состав питательного раствора зависит от культуры, стадии роста и качества исходной воды.",
+        "Слишком низкая EC может означать недостаточную подачу части элементов питания, но корректировку выполняют после проверки измерения и рецептуры раствора."
+      ]
+    },
+    {
+      "id": "aces-greenhouse-cucumber",
+      "title": "Greenhouse Cucumber Production",
+      "organization": "Alabama Cooperative Extension System",
+      "url": "https://www.aces.edu/blog/topics/crop-production/greenhouse-cucumber-production/",
+      "crops": ["cucumber"],
+      "diseases": [],
+      "tags": ["sensor_based", "greenhouse", "humidity", "temperature", "ph", "ec"],
+      "facts": [
+        "Для тепличного огурца источник рекомендует влажность 60–70%; более высокая влажность повышает давление болезней.",
+        "Для предотвращения зон высокой влажности необходима циркуляция воздуха внутри теплицы.",
+        "Для описанной субстратной системы приведены pH 5,5–6,5 и EC 2,0–2,5; диапазон зависит от технологии выращивания."
+      ],
+      "environment_ranges": {"humidity": [60.0, 70.0], "air_temp": [18.3, 26.7]}
+    },
+    {
+      "id": "umn-tomato-leaf-mold",
+      "title": "Tomato leaf mold",
+      "organization": "University of Minnesota Extension",
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-leaf-mold",
+      "crops": ["tomato"],
+      "diseases": ["tomato_leaf_mold"],
+      "tags": ["fungal", "humidity", "greenhouse"],
+      "facts": [
+        "Листовая плесень томата особенно связана с теплицами и высокой относительной влажностью; тяжёлому развитию способствует влажность около 85% и выше.",
+        "Для снижения риска используют капельный полив, избегают намокания листьев и улучшают движение воздуха вентиляцией, размещением и обрезкой растений.",
+        "Растительные остатки и поверхности теплицы очищают после сезона; инструменты и опоры дезинфицируют."
+      ]
+    },
+    {
+      "id": "umn-bacterial-spot",
+      "title": "Bacterial spot of tomato and pepper",
+      "organization": "University of Minnesota Extension",
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/bacterial-spot-of-tomato-and-pepper",
+      "crops": ["tomato", "pepper"],
+      "diseases": ["tomato_bacterial_spot", "pepper_bacterial_spot"],
+      "tags": ["bacterial", "leaf_spot", "humidity"],
+      "facts": [
+        "Бактериальная пятнистость распространяется с брызгами воды, инструментами и руками; тёплые влажные условия усиливают заболевание.",
+        "Следует избегать верхнего полива и работы с мокрыми растениями, поддерживать расстояние и движение воздуха, очищать инструменты.",
+        "Похожие пятна имеют разные причины, поэтому химическую обработку нельзя выбирать только по фотографии."
+      ]
+    },
+    {
+      "id": "ncsu-pepper-cercospora",
+      "title": "Cercospora Leaf Spot (Frogeye Leaf Spot) on Pepper",
+      "organization": "NC State Extension",
+      "url": "https://content.ces.ncsu.edu/cercospora-leaf-spot-frogeye-leaf-spot-on-pepper",
+      "crops": ["pepper"],
+      "diseases": ["pepper_cercospora_leaf_spot"],
+      "tags": ["fungal", "cercospora", "leaf_spot", "humidity", "diagnosis"],
+      "facts": [
+        "Церкоспороз перца вызывается грибом Cercospora capsici, а не бактерией; типичны округлые пятна со светлым центром и тёмной каймой.",
+        "При сильном развитии пятнистость вызывает опадение листьев и косвенно повышает риск солнечного ожога плодов.",
+        "Уберите поражённые листья и растительные остатки, соблюдайте севооборот и подтверждайте диагноз до выбора зарегистрированного средства защиты."
+      ]
+    },
+    {
+      "id": "umn-tomato-viruses",
+      "title": "Tomato viruses",
+      "organization": "University of Minnesota Extension",
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-viruses",
+      "crops": ["tomato"],
+      "diseases": ["tomato_mosaic_virus", "tomato_yellow_leaf_curl_virus"],
+      "tags": ["virus", "diagnosis", "vectors"],
+      "facts": [
+        "Вирусные болезни томата нельзя надёжно различить только по внешним симптомам; подтверждение требует лабораторного теста.",
+        "Лечения, устраняющего вирус из заражённого растения, нет; меры направляют на предотвращение распространения.",
+        "Некоторые вирусы переносят тли и трипсы, а другие могут распространяться руками, одеждой, инструментами, семенами или растительными остатками."
+      ]
+    },
+    {
+      "id": "wsu-pepper-eggplant-mosaic",
+      "title": "Pepper, Eggplant: Mosaic Viruses",
+      "organization": "Washington State University Hortsense",
+      "url": "https://hortsense.cahnrs.wsu.edu/fact-sheet/pepper-eggplant-mosaic-viruses/",
+      "crops": ["pepper", "eggplant"],
+      "diseases": ["pepper_leaf_curl", "eggplant_mosaic_virus"],
+      "tags": ["virus", "mosaic", "leaf_curl", "diagnosis", "vectors", "sanitation"],
+      "facts": [
+        "Мозаичность, скручивание и деформация листьев у перца и баклажана могут вызываться разными вирусами, поэтому название класса не является лабораторным определением возбудителя.",
+        "Часть вирусов переносят тли или трипсы, а табачная мозаика может распространяться руками и инструментами после контакта с заражённым материалом.",
+        "Изолируйте подозрительное растение, удаляйте сорняки-хозяева, мойте руки и инструмент и подтверждайте вирус лабораторно до специальных мер."
+      ]
+    },
+    {
+      "id": "kstate-eggplant-little-leaf",
+      "title": "Pepper and Eggplant Disease Guide: Little Leaf Phytoplasma",
+      "organization": "Kansas State University Research and Extension",
+      "url": "https://extension.k-state.edu/foodsafety/produce/resources/docs/peppereggplantdisease.pdf",
+      "crops": ["eggplant"],
+      "diseases": ["eggplant_small_leaf"],
+      "tags": ["phytoplasma", "little_leaf", "leafhopper", "diagnosis", "vectors"],
+      "facts": [
+        "Мелколистность баклажана связана с фитоплазмой: характерны мелкие бледно-зелёные листья, короткие междоузлия, кустистость и стерильные листовидные цветки.",
+        "Фитоплазму переносят цикадки, а сорные растения и перекрывающиеся циклы выращивания могут поддерживать источник инфекции.",
+        "Удаляйте растения с характерными системными симптомами и сорняки-хозяева; по одной фотографии диагноз фитоплазмы не подтверждается."
+      ]
+    },
+    {
+      "id": "umn-tomato-leaf-spots",
+      "title": "Spotty tomato leaves: identification and management",
+      "organization": "University of Minnesota Extension",
+      "url": "https://blog-fruit-vegetable-ipm.extension.umn.edu/2022/07/as-fruit-sets-leaf-spots-follow-tomato.html",
+      "crops": ["tomato"],
+      "diseases": ["tomato_early_blight", "tomato_late_blight", "tomato_septoria"],
+      "tags": ["fungal", "leaf_spot", "diagnosis"],
+      "facts": [
+        "Разные грибные и бактериальные болезни вызывают похожие пятна, поэтому перед специфической обработкой важно подтвердить возбудителя.",
+        "Подвязка, удаление сорняков и аккуратное удаление сильно поражённых листьев улучшают проветривание и ускоряют высыхание листьев.",
+        "Капельный полив и уменьшение разбрызгивания воды снижают перенос возбудителей внутри посадки."
+      ]
+    },
+    {
+      "id": "psu-greenhouse-powdery-mildew",
+      "title": "Powdery Mildew in Greenhouses",
+      "organization": "Penn State Extension",
+      "url": "https://extension.psu.edu/powdery-mildew",
+      "crops": ["all"],
+      "diseases": ["tomato_powdery_mildew", "cucumber_powdery_mildew", "pepper_powdery_mildew", "strawberry_powdery_mildew_leaf"],
+      "tags": ["fungal", "powdery_mildew", "humidity", "greenhouse"],
+      "facts": [
+        "Для многих мучнистых рос благоприятны высокая ночная влажность и температура примерно 22–27 °C.",
+        "При нескольких последовательных благоприятных днях рекомендуются вентиляция и управление микроклиматом для снижения ночной влажности.",
+        "Средства защиты выбирают только среди разрешённых для конкретной культуры и условий теплицы и применяют строго по этикетке."
+      ]
+    },
+    {
+      "id": "ucipm-strawberry-powdery-mildew",
+      "title": "Powdery Mildew of Strawberry",
+      "organization": "University of California Statewide IPM Program",
+      "url": "https://ipm.ucanr.edu/agriculture/strawberry/powdery-mildew/",
+      "crops": ["strawberry"],
+      "diseases": ["strawberry_powdery_mildew_leaf"],
+      "tags": ["fungal", "powdery_mildew", "greenhouse"],
+      "facts": [
+        "Мучнистая роса земляники особенно серьёзна в теплицах и плёночных туннелях; развитию способствуют сухая поверхность листа и высокая относительная влажность.",
+        "Необходимо регулярно осматривать листья, цветки и плоды и избегать избыточного азотного питания.",
+        "Химические меры зависят от регистрации препарата, стадии культуры и этикетки; база не назначает препарат или дозировку автоматически."
+      ]
+    },
+    {
+      "id": "psu-high-tunnel-airflow",
+      "title": "High Tunnel Production",
+      "organization": "Penn State Extension",
+      "url": "https://extension.psu.edu/high-tunnel-production",
+      "crops": ["tomato", "cucumber", "pepper", "eggplant", "strawberry"],
+      "diseases": [],
+      "tags": ["sensor_based", "greenhouse", "humidity", "prevention"],
+      "facts": [
+        "Управление растительностью и проветриванием повышает движение воздуха, удаляет избыток тепла и влаги и помогает сдерживать болезни тепличных культур.",
+        "Для полива в защищённом грунте предпочтительно контролировать влажность корневой зоны и подавать воду без лишнего смачивания листвы."
+      ]
+    },
+    {
+      "id": "fao-healthy-crop-monitoring",
+      "title": "Good Agricultural Practices for Greenhouse Vegetable Crops",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "url": "https://www.fao.org/4/i3284e/i3284e.pdf",
+      "crops": ["tomato", "cucumber", "pepper", "eggplant", "strawberry"],
+      "diseases": ["tomato_healthy", "cucumber_healthy", "pepper_healthy", "eggplant_healthy", "strawberry_healthy"],
+      "tags": ["healthy", "monitoring", "greenhouse", "prevention"],
+      "facts": [
+        "Класс без видимых признаков болезни означает только отсутствие распознанных симптомов на данном снимке и не исключает раннюю или невизуальную проблему.",
+        "Продолжайте регулярный осмотр листьев с обеих сторон, стеблей, плодов и корневой зоны и сохраняйте одинаковые точки наблюдения.",
+        "Не выполняйте профилактическую химическую обработку только из-за результата классификатора; поддерживайте технологические параметры выбранной культуры."
+      ]
+    },
+    {
+      "id": "ucipm-tomato-leafminers-whiteflies",
+      "title": "Tomato Pest Management Guidelines: Leafminers and Whiteflies",
+      "organization": "University of California Statewide IPM Program",
+      "url": "https://ipm.ucanr.edu/agriculture/tomato/",
+      "crops": ["tomato"],
+      "diseases": ["tomato_leaf_miner", "tomato_whitefly"],
+      "tags": ["insect", "monitoring", "biological_control", "greenhouse"],
+      "facts": [
+        "Осмотрите нижнюю сторону листьев и несколько растений в разных точках теплицы; для белокрылки полезны жёлтые клеевые ловушки, а для минёра учитывают свежие ходы и личинок.",
+        "Сохраняйте естественных врагов вредителей и избегайте необоснованного применения средств широкого спектра, способных вызвать рост численности минёров.",
+        "Удаляйте сильно заселённые растительные остатки и сорняки-хозяева, а решение об обработке принимайте по повторному учёту численности, а не по одной фотографии."
+      ]
+    },
+    {
+      "id": "umn-cucumber-foliar-diseases",
+      "title": "Disease Management for Cucurbits",
+      "organization": "University of Minnesota Extension",
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-and-insect-management",
+      "crops": ["cucumber"],
+      "diseases": ["cucumber_downy_mildew", "cucumber_anthracnose", "cucumber_gummy_stem_blight"],
+      "tags": ["oomycete", "fungal", "humidity", "leaf_wetness", "diagnosis"],
+      "facts": [
+        "Сравните верхнюю и нижнюю сторону листа: угловатые пятна и серо-фиолетовый налёт при высокой влажности характерны для ложной мучнистой росы, но её можно спутать с другими пятнистостями.",
+        "Уменьшите длительность увлажнения листьев: используйте капельный полив, улучшите движение воздуха и не работайте с мокрыми растениями.",
+        "Изолируйте быстро развивающиеся очаги, очищайте инструмент между рядами и подтвердите возбудителя перед выбором специфического средства защиты."
+      ]
+    },
+    {
+      "id": "cornell-cucumber-wilt",
+      "title": "Cucumber Wilt, Crown and General Plant Decline",
+      "organization": "Cornell University",
+      "url": "https://www.vegetables.cornell.edu/pest-management/keys-for-identifying-vegetable-diseases/cucurbit-key/cucumber-disease-key/cucurbit-wilt-crown-and-general-plant-decline/",
+      "crops": ["cucumber"],
+      "diseases": ["cucumber_bacterial_wilt"],
+      "tags": ["bacterial", "wilt", "vectors", "diagnosis"],
+      "facts": [
+        "Увядание одного листа или отдельного побега не подтверждает бактериальную природу: проверьте стебель, корневую зону, полив и наличие огуречных жуков-переносчиков.",
+        "Отметьте и временно изолируйте поражённые растения, не переносите сок и растительные остатки инструментом или руками на соседние ряды.",
+        "При быстром распространении увядания требуется очная диагностика, поскольку похожие симптомы вызывают корневые гнили, нарушения полива и сосудистые болезни."
+      ]
+    },
+    {
+      "id": "cornell-cucumber-fruit-rots",
+      "title": "Cucumber Fruit Symptoms",
+      "organization": "Cornell University",
+      "url": "https://www.vegetables.cornell.edu/pest-management/keys-for-identifying-vegetable-diseases/cucurbit-key/cucumber-disease-key/diseases-of-cucurbit-fruits/",
+      "crops": ["cucumber"],
+      "diseases": ["cucumber_belly_rot", "cucumber_pythium_fruit_rot"],
+      "tags": ["fruit_rot", "oomycete", "moisture", "diagnosis"],
+      "facts": [
+        "Осмотрите место контакта плода с влажной поверхностью и характер налёта; разные плодовые гнили похожи на ранней стадии и требуют подтверждения.",
+        "Уберите поражённые плоды, уменьшите контакт здоровых плодов с влажным субстратом и исключите застой воды в корневой зоне.",
+        "Не отправляйте повреждённые плоды на хранение вместе со здоровыми и продезинфицируйте поверхности и инструмент после удаления очага."
+      ]
+    },
+    {
+      "id": "osu-nutrient-deficiency-check",
+      "title": "Electrical Conductivity and pH Guide for Hydroponics",
+      "organization": "Oklahoma State University Extension",
+      "url": "https://extension.okstate.edu/fact-sheets/electrical-conductivity-and-ph-guide-for-hydroponics",
+      "crops": ["pepper", "strawberry"],
+      "diseases": ["pepper_nutrient_deficiency", "strawberry_calcium_deficiency"],
+      "tags": ["nutrient", "abiotic", "ph", "ec", "root_zone"],
+      "facts": [
+        "Визуальный симптом дефицита не показывает, какого элемента не хватает в растворе: сначала перепроверьте pH, EC, калибровку датчиков и рецептуру.",
+        "Оцените, появляются ли симптомы на молодых или старых листьях, и сравните несколько растений; повреждение корней и неблагоприятный pH могут нарушать усвоение при наличии элемента.",
+        "Корректируйте раствор постепенно по технологической карте культуры и не добавляйте отдельный элемент только по фотографии без анализа воды или раствора."
+      ]
+    },
+    {
+      "id": "umass-eggplant-diseases",
+      "title": "Eggplant Disease and Pest Guide",
+      "organization": "University of Massachusetts Extension",
+      "url": "https://www.umass.edu/agriculture-food-environment/vegetable/fact-sheets/eggplant",
+      "crops": ["eggplant"],
+      "diseases": ["eggplant_leaf_spot", "eggplant_wilt"],
+      "tags": ["fungal", "wilt", "leaf_spot", "diagnosis"],
+      "facts": [
+        "Осмотрите основание стебля, сосудистую ткань и обе стороны листа: листовая пятнистость и сосудистое увядание требуют разных мер и могут внешне пересекаться.",
+        "Удалите сильно поражённые ткани без разноса растительных остатков, очищайте инструмент и уменьшите длительное увлажнение листьев и застой воды.",
+        "При одностороннем увядании проверьте корни и проводящие ткани и обратитесь за подтверждением, поскольку баклажан особенно восприимчив к вертициллёзному увяданию."
+      ]
+    },
+    {
+      "id": "usu-eggplant-white-mold",
+      "title": "Vegetable Diseases in Utah",
+      "organization": "Utah State University Extension",
+      "url": "https://extension.usu.edu/planthealth/ipm/notes_ag/veg-diseases-utah",
+      "crops": ["eggplant"],
+      "diseases": ["eggplant_white_mold"],
+      "tags": ["fungal", "white_mold", "sclerotinia", "diagnosis", "sanitation"],
+      "facts": [
+        "Белая гниль баклажана связана со Sclerotinia sclerotiorum; белый мицелий и склероции у основания стебля помогают отличить её от других причин увядания.",
+        "Изолируйте поражённое растение, не переносите заражённые остатки и грунт между посадками и избегайте длительного переувлажнения корневой зоны.",
+        "Увядание без характерного мицелия не подтверждает белую гниль: проверьте основание стебля и получите очную диагностику."
+      ]
+    },
+    {
+      "id": "psu-eggplant-insect-monitoring",
+      "title": "Eggplant in the Garden and the Kitchen",
+      "organization": "Penn State Extension",
+      "url": "https://extension.psu.edu/eggplant-in-the-garden-and-the-kitchen",
+      "crops": ["eggplant"],
+      "diseases": ["eggplant_insect_pest"],
+      "tags": ["insect", "monitoring", "leaf_damage", "integrated_pest_management"],
+      "facts": [
+        "Осмотрите нижнюю сторону листьев и точки роста и попытайтесь обнаружить самого вредителя, яйца, личинок, экскременты или характер погрызов.",
+        "Сравните повреждения на молодых и взрослых растениях, удалите сорняки и растительные остатки, служащие убежищем, и ведите повторный учёт численности.",
+        "Не выбирайте инсектицид по общему классу «вредитель»: сначала определите вид и порог вредоносности и сохраните полезных насекомых."
+      ]
+    },
+    {
+      "id": "ucipm-strawberry-leaf-diseases",
+      "title": "Pest Identification and Confirmation: Leaf Spot Diseases of Strawberry",
+      "organization": "University of California Statewide IPM Program",
+      "url": "https://ipm.ucanr.edu/home-and-landscape/pest-identification-and-confirmation-leaf-spot-diseases-of-strawberry/",
+      "crops": ["strawberry"],
+      "diseases": ["strawberry_leaf_scorch", "strawberry_leaf_spot"],
+      "tags": ["fungal", "leaf_spot", "leaf_scorch", "moisture", "diagnosis"],
+      "facts": [
+        "При ожоге листьев земляники пятна обычно коричневые или пурпурные с нечёткой границей; при обычной пятнистости характернее светлый центр и резко очерченная тёмно-пурпурная кайма.",
+        "Несколько возбудителей вызывают похожее изменение цвета листьев, поэтому сравнивайте границы, центр пятна и распространение симптомов на нескольких листьях.",
+        "Не выбирайте средство защиты по одному пятну или ответу модели: сначала подтвердите тип листовой болезни."
+      ]
+    },
+    {
+      "id": "ucipm-strawberry-gray-mold",
+      "title": "Botrytis Fruit Rot",
+      "organization": "University of California Statewide IPM Program",
+      "url": "https://ipm.ucanr.edu/agriculture/strawberry/botrytis-fruit-rot/",
+      "crops": ["strawberry"],
+      "diseases": ["strawberry_gray_mold"],
+      "tags": ["fruit_rot", "botrytis", "gray_mold", "sanitation", "humidity"],
+      "facts": [
+        "Серая гниль земляники часто начинается небольшим коричневым поражением под чашечкой и образует характерный серый бархатистый налёт.",
+        "Удаляйте заражённые и повреждённые плоды и растительные остатки; быстрое высыхание растений и отсутствие длительной свободной воды снижают риск развития Botrytis.",
+        "Решение о защите принимают по погоде, влажности и наблюдаемому риску инфекции; при неподходящих для болезни условиях обработка не рекомендуется."
+      ]
+    },
+    {
+      "id": "ucipm-strawberry-anthracnose",
+      "title": "Anthracnose of Strawberry",
+      "organization": "University of California Statewide IPM Program",
+      "url": "https://ipm.ucanr.edu/home-and-landscape/anthracnose-of-strawberry/",
+      "crops": ["strawberry"],
+      "diseases": ["strawberry_anthracnose_fruit_rot"],
+      "tags": ["fruit_rot", "anthracnose", "sanitation", "moisture", "diagnosis"],
+      "facts": [
+        "Антракноз земляники может давать тёмные, плотные, вдавленные поражения плодов, черешков и усов; при высокой влажности на них возможны оранжевые споры.",
+        "Используйте свободный от возбудителя посадочный материал, удаляйте сорняки-хозяева и предпочитайте капельный полив верхнему дождеванию.",
+        "Антракнозное поражение короны может напоминать фитофторозную гниль, поэтому при увядании и гибели растения требуется подтверждение причины."
+      ]
+    }
+  ]
+}

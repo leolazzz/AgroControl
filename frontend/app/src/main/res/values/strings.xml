@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HotBed AgroControl</string>
+
+    <string name="command_history_title">История команд</string>
+    <string name="menu_delete_all">Очистить историю</string>
+    <string name="no_commands_yet">Команд пока нет</string>
+    <string name="commands_will_appear_here">Здесь появятся отправленные команды</string>
+    <string name="empty_state_icon_description">История команд пуста</string>
+    <string name="undo">Отменить</string>
+</resources>

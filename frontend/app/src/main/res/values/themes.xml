@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Agrocontrol" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/agro_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/agro_ochre</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+</resources>

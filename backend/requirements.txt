@@ -1,0 +1,15 @@
+flask
+flask-sqlalchemy
+flask-mqtt
+flask-limiter
+paho-mqtt
+ollama
+requests
+werkzeug
+pillow
+numpy>=1.26,<2
+pyjwt
+bcrypt
+onnxruntime>=1.20,<1.21
+pytest
+python-dotenv

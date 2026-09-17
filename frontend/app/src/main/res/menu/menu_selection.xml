@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_select_all"
+        android:title="Все"
+        android:contentDescription="Выбрать все записи"
+        android:icon="@drawable/ic_checklist_all"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/action_delete"
+        android:title="Удалить"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="ifRoom" />
+
+</menu>

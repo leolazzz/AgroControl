@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+*.db
+backend/uploads/
+frontend/.gradle-user/
+frontend/.android-user/
+frontend/.gradle/
+frontend/app/build/
+frontend/build/
+frontend/local.properties
+frontend/*.log
+frontend/hs_err_pid*.log

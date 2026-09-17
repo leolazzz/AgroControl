@@ -1,0 +1,17 @@
+{
+  "selected": {
+    "train": 4000,
+    "calibration": 800,
+    "field_test": 800
+  },
+  "excluded": {
+    "plant_produce_or_void": 29151
+  },
+  "targets": {
+    "train": 4000,
+    "calibration": 800,
+    "field_test": 800
+  },
+  "scope": "Original COCO-Stuff annotations; residual annotation errors remain possible",
+  "field_test_source": "COCO val2017; train/calibration use COCO train2017"
+}

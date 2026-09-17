@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:background="?attr/colorSurface">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Создание аккаунта" android:textAppearance="?attr/textAppearanceHeadlineMedium" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="20dp" android:text="После регистрации вход будет выполнен автоматически" android:textAppearance="?attr/textAppearanceBodyLarge" android:textColor="?attr/colorOnSurfaceVariant" />
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="20dp" app:cardElevation="2dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+                <com.google.android.material.textfield.TextInputLayout android:id="@+id/tilUsername" style="@style/Widget.Material3.TextInputLayout.OutlinedBox" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Логин" app:helperText="3–32 символа: буквы, цифры, точка, дефис или _">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/etUsername" android:layout_width="match_parent" android:layout_height="wrap_content" android:imeOptions="actionNext" android:inputType="text" android:maxLength="32" android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout android:id="@+id/tilEmail" style="@style/Widget.Material3.TextInputLayout.OutlinedBox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:hint="Email">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/etEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:imeOptions="actionNext" android:inputType="textEmailAddress" android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout android:id="@+id/tilPassword" style="@style/Widget.Material3.TextInputLayout.OutlinedBox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:hint="Пароль" app:endIconMode="password_toggle">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/etPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:imeOptions="actionNext" android:inputType="textPassword" android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <TextView android:id="@+id/tvPasswordRequirements" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="?attr/colorOnSurfaceVariant" android:textSize="13sp" />
+                <com.google.android.material.textfield.TextInputLayout android:id="@+id/tilConfirmPassword" style="@style/Widget.Material3.TextInputLayout.OutlinedBox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:hint="Повторите пароль" app:endIconMode="password_toggle">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/etConfirmPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:imeOptions="actionDone" android:inputType="textPassword" android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <TextView android:id="@+id/tvError" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:accessibilityLiveRegion="polite" android:textColor="?attr/colorError" android:visibility="gone" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/btnRegister" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:minHeight="52dp" android:text="Создать аккаунт" />
+                <ProgressBar android:id="@+id/progressBar" android:layout_width="32dp" android:layout_height="32dp" android:layout_gravity="center" android:layout_marginTop="12dp" android:visibility="gone" />
+                <TextView android:id="@+id/tvLoginLink" android:layout_width="match_parent" android:layout_height="48dp" android:gravity="center" android:text="Уже есть аккаунт? Войти" android:textColor="?attr/colorPrimary" android:textStyle="bold" android:clickable="true" android:focusable="true" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView android:id="@+id/tvServerSettings" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:gravity="center" android:text="Настроить адрес сервера" android:textColor="?attr/colorPrimary" android:clickable="true" android:focusable="true" />
+    </LinearLayout>
+</ScrollView>
